@@ -45,7 +45,8 @@ export interface CommandArgument {
     | "voicechannel"
     | "command"
     | "duration"
-    | "guild";
+    | "guild"
+    | "possibleMoves";
   /** The function that runs if this argument is required and is missing. */
   missing?: (message: Message) => unknown;
   /** Whether or not this argument is required. Defaults to true. */

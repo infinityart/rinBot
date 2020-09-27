@@ -1,0 +1,15 @@
+{
+  "scripts": {
+    "start": {
+      "cmd": "deno run mod.ts",
+      "desc": "Start the bot",
+      "unstable": true,
+      "tsconfig": "tsconfig.json"
+    }
+  },
+  "allow": [
+    "read",
+    "net",
+    "env"
+  ]
+}
